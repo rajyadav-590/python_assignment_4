@@ -1,6 +1,6 @@
 try:
     # Writing multiple lines
-    print("Enter text to write to the file (type 'END' to stop):")
+    print("Enter text to write to the file (type 'END' to stop):",end="")
 
     with open("output.txt", "w") as file:
         while True:
@@ -12,7 +12,7 @@ try:
     print("Data successfully written to output.txt.")
 
     # Appending multiple lines
-    print("\nEnter additional text to append (type 'END' to stop):")
+    print("\nEnter additional text to append (type 'END' to stop):",end="")
 
     with open("output.txt", "a") as file:
         while True:
