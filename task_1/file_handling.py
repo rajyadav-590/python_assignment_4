@@ -16,9 +16,7 @@ except FileNotFoundError:
 
 
 
-
-
-#without using exception
+#without using error handling
 
 # import os
 # if os.path.exists("sample.txt"):
